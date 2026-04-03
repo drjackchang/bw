@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor Brett Williams | Global EMS & Paramedicine Leader</title>
+    <style>
+        /* ==================== Global Styles ==================== */
+        :root {
+            --primary: #0f172a; 
+            --accent: #2563eb; 
+            --light-bg: #f8fafc;
+            --stat-blue: #3b82f6;
+        }
+        body { font-family: 'Inter', -apple-system, sans-serif; line-height: 1.6; color: #334155; margin: 0; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        
+        /* Navigation */
+        nav { background: var(--primary); color: white; padding: 20px; position: sticky; top: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; }
+        nav a { color: white; text-decoration: none; margin-left: 20px; font-weight: 500; font-size: 0.9em; }
+
+        /* Hero Section */
+        .hero { padding: 80px 20px; background: var(--light-bg); text-align: center; border-bottom: 1px solid #e2e8f0; }
+        .hero h1 { font-size: 3em; color: var(--primary); margin: 0; }
+        .hero p.title { font-size: 1.3em; color: var(--accent); margin: 10px 0; font-weight: 600; }
+        .profile-img { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 5px solid white; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); margin-bottom: 25px; }
+
+        /* Impact Dashboard */
+        .stats-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px; margin-top: -60px; text-align: center; margin-bottom: 50px;
+        }
+        .stat-card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; }
+        .stat-card h3 { font-size: 2.2em; color: var(--stat-blue); margin: 0; }
+        .stat-card p { font-size: 0.8em; color: #64748b; margin: 5px 0 0; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
+
+        /* Experience Sections */
+        section { margin-bottom: 60px; }
+        .section-title { font-size: 1.8em; color: var(--primary); border-left: 5px solid var(--accent); padding-left: 15px; margin-bottom: 30px; }
+        
+        .exp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+        .exp-list h4 { color: var(--accent); margin: 0; font-size: 1.1em; }
+        .exp-list p { margin: 5px 0 20px; font-size: 0.95em; }
+
+        /* Publication List */
+        .pub-item { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e2e8f0; margin-bottom: 15px; }
+        .pub-year { display: inline-block; background: #dcfce7; color: #166534; padding: 2px 8px; border-radius: 4px; font-size: 0.75em; font-weight: bold; margin-bottom: 8px; }
+        .my-name { font-weight: bold; text-decoration: underline; color: var(--primary); }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .exp-grid { grid-template-columns: 1fr; }
+            .hero h1 { font-size: 2.2em; }
+            .stats-grid { margin-top: 20px; }
+            nav { flex-direction: column; gap: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div style="font-weight: bold; font-size: 1.2em;">Professor Brett Williams</div>
+    <div>
+        <a href="#about">Profile</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#publications">Publications</a>
+        <a href="mailto:bawilliams@iau.edu.sa">Contact</a>
+    </div>
+</nav>
+
+<header id="about" class="hero">
+    <div class="container">
+        <img src="https://scontent.ftpe3-2.fna.fbcdn.net/v/t39.30808-6/572517205_1335540771380332_7752070972396707931_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=_UWEIlq5JD8Q7kNvwEOnuIR&_nc_oc=AdoFIb0MQOWdXCTsD7fN_uh5IhdHhT5iLghHXB7ipQFxvNtJfbrqj_pedSZp2GhkaTKMGcI5NvRVIyIKPBhJ2RD0&_nc_zt=23&_nc_ht=scontent.ftpe3-2.fna&_nc_gid=DxokDFsuWXTb5BMW8BSSbA&_nc_ss=7a3a8&oh=00_Af0GUSK_Pf10jjki_cVjqrRcbDmTIntAkhHEMBEoHxPmag&oe=69D5E090" alt="Prof. Brett Williams" class="profile-img" onerror="this.src='https://via.placeholder.com/180x180?text=BW'">
+        <h1>Professor Brett Williams</h1>
+        <p class="title">PhD, FACP, Registered Paramedic</p>
+        <p style="max-width: 800px; margin: 20px auto; color: #475569; font-size: 1.1em;">
+            Professor of Paramedicine at Imam Abdulrahman bin Faisal University. 
+            An active leader in EMS research and mentorship for over 25 years, 
+            building international capacity across 12 countries.
+        </p>
+        <div style="margin-top: 30px;">
+            <a href="mailto:bawilliams@iau.edu.sa" style="background: var(--accent); color: white; padding: 14px 28px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);">Email Professor</a>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="stats-grid">
+        <div class="stat-card"><h3>18,634</h3><p>Citations</p></div>
+        <div class="stat-card"><h3>61</h3><p>H-Index</p></div>
+        <div class="stat-card"><h3>403</h3><p>Journal Articles</p></div>
+        <div class="stat-card"><h3>$6.5M</h3><p>Research Funding</p></div>
+    </div>
+
+    <section id="leadership">
+        <h2 class="section-title">Academic Leadership & Expertise</h2>
+        <div class="exp-grid">
+            <div class="exp-list">
+                <h4>Current Appointments</h4>
+                <p>Professor of Paramedicine, Imam Abdulrahman bin Faisal University (KSA). Adjunct Professor positions in Singapore (NUS) and Jordan (JUST).</p>
+                
+                <h4>Global Impact</h4>
+                <p>Curriculum design and teaching across 12 countries, including USA, UK, China, Taiwan, Japan, and Singapore.</p>
+            </div>
+            <div class="exp-list">
+                <h4>Research Specialization</h4>
+                <p>Specializing in Non-Technical Skills (NTS), paramedic professionalization, and evidence-based clinical practice. Successfully mentored 16 PhD scholars.</p>
+                
+                <h4>Professional Recognition</h4>
+                <p>Fellow of the Australian College of Paramedicine (FACP). Recipient of multiple National Awards for Teaching Excellence.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications">
+        <h2 class="section-title">Selected Publications (Recent)</h2>
+        <div class="pub-item">
+            <span class="pub-year">2026</span><br>
+            Oteir A, Almhdawi K, Alqudah Z, Shatnawi R, Al-magableh M, Alqudah A, Chang Y-T, <span class="my-name">Williams B.</span> 
+            "Knowledge and Willingness to Perform Cardiopulmonary Resuscitation by Bystanders in Jordan; A Nationwide Cross-sectional Study." 
+            <em>Archives of Academic Emergency Medicine</em>, 14(1): e8.
+        </div>
+        <div class="pub-item">
+            <span class="pub-year">2025</span><br>
+            Alhenaki A, Alqudah Z, Williams B, Nehme E, <span class="my-name">Williams B</span>, Nehme Z. 
+            "Clinical state transitions in shock-refractory fibrillation: an observational study." 
+            <em>Resuscitation</em>, 211, 110618.
+        </div>
+        <div class="pub-item">
+            <span class="pub-year">2025</span><br>
+            Ta'an W, Damrah S, Al-Hammouri-Al M, <span class="my-name">Williams B.</span> 
+            "Professional identity and its relationships with AI readiness and interprofessional collaboration." 
+            <em>PLoS One</em>, 20(5): e0322794.
+        </div>
+        <div class="pub-item">
+            <span class="pub-year">2024</span><br>
+            Kuang-Chau T, <span class="my-name">Williams B</span>, Chieh-Min F, Hara T, Oteir A, Yung-Fang C, Yu-Tung C. 
+            "Innovative Solutions in Paramedicine, Emergency Response, and EMS Policy: Insights from JPER." 
+            <em>Journal of Paramedicine and Emergency Response</em>, 5(28).
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <p style="color: #64748b;">View complete list of 403 peer-reviewed papers on:</p>
+            <a href="https://scholar.google.com/citations?user=ywJ6MYsAAAAJ&hl=en" target="_blank" style="display: inline-block; background: #fff; border: 2px solid var(--accent); color: var(--accent); padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: all 0.2s;">Google Scholar Profile</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact Information</h2>
+        <div class="pub-item">
+            <p><strong>Email:</strong> <a href="mailto:bawilliams@iau.edu.sa">bawilliams@iau.edu.sa</a></p>
+            <p><strong>Phone:</strong> +966 53 663 4560</p>
+            <p><strong>Address:</strong> Dammam 34225, Kingdom of Saudi Arabia</p>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <div style="background: var(--primary); color: white; text-align: center; padding: 50px 20px; margin-top: 80px;">
+        <p>&copy; 2026 Professor Brett Williams. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
