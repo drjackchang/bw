@@ -7,14 +7,14 @@
     <style>
         /* ==================== Global Styles ==================== */
         :root {
-            --primary: #0f172a; 
-            --accent: #2563eb; 
+            --primary: #0f172a;
+            --accent: #2563eb;
             --light-bg: #f8fafc;
             --stat-blue: #3b82f6;
         }
         body { font-family: 'Inter', -apple-system, sans-serif; line-height: 1.6; color: #334155; margin: 0; }
         .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
-        
+
         /* Navigation */
         nav { background: var(--primary); color: white; padding: 20px; position: sticky; top: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; }
         nav a { color: white; text-decoration: none; margin-left: 20px; font-weight: 500; font-size: 0.9em; }
@@ -37,7 +37,7 @@
         /* Experience Sections */
         section { margin-bottom: 60px; }
         .section-title { font-size: 1.8em; color: var(--primary); border-left: 5px solid var(--accent); padding-left: 15px; margin-bottom: 30px; }
-        
+
         .exp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
         .exp-list h4 { color: var(--accent); margin: 0; font-size: 1.1em; }
         .exp-list p { margin: 5px 0 20px; font-size: 0.95em; }
@@ -45,7 +45,12 @@
         /* Publication List */
         .pub-item { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e2e8f0; margin-bottom: 15px; }
         .pub-year { display: inline-block; background: #dcfce7; color: #166534; padding: 2px 8px; border-radius: 4px; font-size: 0.75em; font-weight: bold; margin-bottom: 8px; }
+        .orcid-badge { display: inline-block; background: #dbeafe; color: #1e40af; padding: 2px 8px; border-radius: 4px; font-size: 0.75em; font-weight: bold; margin-bottom: 8px; margin-left: 8px; }
         .my-name { font-weight: bold; text-decoration: underline; color: var(--primary); }
+        .pub-toggle-btn { display: inline-block; background: #fff; border: 2px solid var(--accent); color: var(--accent); padding: 10px 22px; border-radius: 8px; text-decoration: none; font-weight: bold; cursor: pointer; font-size: 0.95em; }
+        .pub-toggle-btn:hover { background: var(--accent); color: #fff; }
+        .orcid-note { font-size: 0.85em; color: #64748b; margin-top: -10px; margin-bottom: 20px; }
+        .orcid-note a { color: var(--accent); text-decoration: none; font-weight: 600; }
 
         /* Responsive */
         @media (max-width: 768px) {
@@ -74,12 +79,13 @@
         <h1>Professor Brett Williams</h1>
         <p class="title">PhD, FACP, Registered Paramedic</p>
         <p style="max-width: 800px; margin: 20px auto; color: #475569; font-size: 1.1em;">
-            Professor of Paramedicine at Imam Abdulrahman bin Faisal University. 
-            An active leader in EMS research and mentorship for over 25 years, 
+            Professor of Paramedicine at Imam Abdulrahman bin Faisal University.
+            An active leader in EMS research and mentorship for over 25 years,
             building international capacity across 12 countries.
         </p>
         <div style="margin-top: 30px;">
-            <a href="mailto:bawilliams@iau.edu.sa" style="background: var(--accent); color: white; padding: 14px 28px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);">Email Professor</a>
+            <a href="mailto:bawilliams@iau.edu.sa" style="background: var(--accent); color: white; padding: 14px 28px; border-radius: 8px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2); margin-right: 10px;">Email Professor</a>
+            <a href="https://orcid.org/0000-0001-6307-1779" target="_blank" rel="noopener" style="background: #fff; color: var(--accent); border: 2px solid var(--accent); padding: 12px 26px; border-radius: 8px; text-decoration: none; font-weight: bold;">ORCID Profile</a>
         </div>
     </div>
 </header>
@@ -98,14 +104,14 @@
             <div class="exp-list">
                 <h4>Current Appointments</h4>
                 <p>Professor of Paramedicine, Imam Abdulrahman bin Faisal University (KSA). Adjunct Professor positions in Singapore (NUS) and Jordan (JUST).</p>
-                
+
                 <h4>Global Impact</h4>
                 <p>Curriculum design and teaching across 12 countries, including USA, UK, China, Taiwan, Japan, and Singapore.</p>
             </div>
             <div class="exp-list">
                 <h4>Research Specialization</h4>
                 <p>Specializing in Non-Technical Skills (NTS), paramedic professionalization, and evidence-based clinical practice. Successfully mentored 16 PhD scholars.</p>
-                
+
                 <h4>Professional Recognition</h4>
                 <p>Fellow of the Australian College of Paramedicine (FACP). Recipient of multiple National Awards for Teaching Excellence.</p>
             </div>
@@ -113,32 +119,16 @@
     </section>
 
     <section id="publications">
-        <h2 class="section-title">Selected Publications (Recent)</h2>
-        <div class="pub-item">
-            <span class="pub-year">2026</span><br>
-            Oteir A, Almhdawi K, Alqudah Z, Shatnawi R, Al-magableh M, Alqudah A, Chang Y-T, <span class="my-name">Williams B.</span> 
-            "Knowledge and Willingness to Perform Cardiopulmonary Resuscitation by Bystanders in Jordan; A Nationwide Cross-sectional Study." 
-            <em>Archives of Academic Emergency Medicine</em>, 14(1): e8.
+        <h2 class="section-title">Publications</h2>
+        <p class="orcid-note">
+            Automatically kept in sync with <a href="https://orcid.org/0000-0001-6307-1779" target="_blank" rel="noopener">ORCID iD 0000-0001-6307-1779</a> on a weekly schedule.
+            New entries are marked <span class="orcid-badge" style="margin-left:0;">ORCID sync</span> until author order is manually reviewed.
+        </p>
+        <div id="pub-list"></div>
+        <div style="text-align: center; margin-top: 30px;">
+            <button id="pub-toggle" class="pub-toggle-btn" type="button">Show more</button>
         </div>
-        <div class="pub-item">
-            <span class="pub-year">2025</span><br>
-            Alhenaki A, Alqudah Z, Williams B, Nehme E, <span class="my-name">Williams B</span>, Nehme Z. 
-            "Clinical state transitions in shock-refractory fibrillation: an observational study." 
-            <em>Resuscitation</em>, 211, 110618.
-        </div>
-        <div class="pub-item">
-            <span class="pub-year">2025</span><br>
-            Ta'an W, Damrah S, Al-Hammouri-Al M, <span class="my-name">Williams B.</span> 
-            "Professional identity and its relationships with AI readiness and interprofessional collaboration." 
-            <em>PLoS One</em>, 20(5): e0322794.
-        </div>
-        <div class="pub-item">
-            <span class="pub-year">2024</span><br>
-            Kuang-Chau T, <span class="my-name">Williams B</span>, Chieh-Min F, Hara T, Oteir A, Yung-Fang C, Yu-Tung C. 
-            "Innovative Solutions in Paramedicine, Emergency Response, and EMS Policy: Insights from JPER." 
-            <em>Journal of Paramedicine and Emergency Response</em>, 5(28).
-        </div>
-        
+
         <div style="text-align: center; margin-top: 40px;">
             <p style="color: #64748b;">View complete list of 403 peer-reviewed papers on:</p>
             <a href="https://scholar.google.com/citations?user=ywJ6MYsAAAAJ&hl=en" target="_blank" style="display: inline-block; background: #fff; border: 2px solid var(--accent); color: var(--accent); padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: all 0.2s;">Google Scholar Profile</a>
@@ -151,6 +141,7 @@
             <p><strong>Email:</strong> <a href="mailto:bawilliams@iau.edu.sa">bawilliams@iau.edu.sa</a></p>
             <p><strong>Phone:</strong> +966 53 663 4560</p>
             <p><strong>Address:</strong> Dammam 34225, Kingdom of Saudi Arabia</p>
+            <p><strong>ORCID:</strong> <a href="https://orcid.org/0000-0001-6307-1779" target="_blank" rel="noopener">0000-0001-6307-1779</a></p>
         </div>
     </section>
 </div>
@@ -161,5 +152,6 @@
     </div>
 </footer>
 
+<script src="js/main.js"></script>
 </body>
 </html>
