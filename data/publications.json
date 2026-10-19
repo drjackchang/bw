@@ -3590,5 +3590,333 @@
     "year": 2000,
     "source": "orcid-sync",
     "needs_review": true
+  },
+  {
+    "id": "orcid-229872790",
+    "authors": "Williams B, et al.",
+    "title": "Paramedic perspectives on organ donation after out-of-hospital cardiac arrest",
+    "venue": "Emergency Medicine Journal",
+    "year": 2026,
+    "doi": "10.1136/emermed-2026-216227",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919193",
+    "authors": "Williams B, et al.",
+    "title": "A comparison of the epidemiology and outcomes of true refractory and recurrent ventricular fibrillation out-of-hospital cardiac arrest: a retrospective study",
+    "venue": "Resuscitation Plus",
+    "year": 2026,
+    "doi": "10.1016/j.resplu.2026.101302",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919267",
+    "authors": "Williams B, et al.",
+    "title": "Depression and anxiety as risk factors for shift work disorder in paramedics after 12 months of shift work: A longitudinal study",
+    "venue": "Sleep Epidemiology",
+    "year": 2026,
+    "doi": "10.1016/j.sleepe.2026.100157",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919309",
+    "authors": "Williams B, et al.",
+    "title": "Does transthoracic impedance influence termination and recurrence of ventricular fibrillation during impedance-compensated shocks for out-of-hospital cardiac arrest? A retrospective study",
+    "venue": "Resuscitation",
+    "year": 2026,
+    "doi": "10.1016/j.resuscitation.2026.111151",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919215",
+    "authors": "Williams B, et al.",
+    "title": "Point-of-care ultrasound in prehospital emergency care: attitudes, facilitators and barriers",
+    "venue": "BMC Medical Education",
+    "year": 2026,
+    "doi": "10.1186/s12909-026-09500-4",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919265",
+    "authors": "Williams B, et al.",
+    "title": "Spinal motion restriction in the emergency healthcare setting: A cross-sectional study of knowledge, attitudes, and practices",
+    "venue": "International Emergency Nursing",
+    "year": 2026,
+    "doi": "10.1016/j.ienj.2026.101857",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919264",
+    "authors": "Williams B, et al.",
+    "title": "ASSESSMENT OF CARDIOPULMONARY RESUSCITATION KNOWLEDGE AND ATTITUDES AMONG ALLIED HEALTH PROFESSIONALS: A CORRELATIONAL STUDY",
+    "venue": "Disaster and Emergency Medicine Journal",
+    "year": 2025,
+    "doi": "10.5603/demj.104665",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919182",
+    "authors": "Williams B, et al.",
+    "title": "Adaptive sleep behaviours and shift work tolerance during the transition to shift work",
+    "venue": "Sleep Medicine",
+    "year": 2024,
+    "doi": "10.1016/j.sleep.2024.10.003",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919287",
+    "authors": "Williams B, et al.",
+    "title": "Examining distress among Saudi paramedics in responding to traumatic events: A mixed-methods study",
+    "venue": "International Emergency Nursing",
+    "year": 2024,
+    "doi": "10.1016/j.ienj.2023.101380",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919156",
+    "authors": "Williams B, et al.",
+    "title": "FAMILY FIRST: The Potential Value of Training Family Members to Provide Psychological First Aid (PFA) to Their First Responders",
+    "venue": "Occupational Stress Injuries Operational and Organizational Stressors Among Public Safety Personnel",
+    "year": 2024,
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919315",
+    "authors": "Williams B, et al.",
+    "title": "Identifying organ donors attended by prehospital healthcare professionals – A scoping review",
+    "venue": "International Emergency Nursing",
+    "year": 2024,
+    "doi": "10.1016/j.ienj.2024.101448",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919294",
+    "authors": "Williams B, et al.",
+    "title": "Personality and vocational interest typologies associated with better coping and resilience in paramedicine: A review of two models",
+    "venue": "Paramedicine",
+    "year": 2024,
+    "doi": "10.1177/27536386231199289",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919178",
+    "authors": "Williams B, et al.",
+    "title": "Prevalence of work-related musculoskeletal disorders and associated factors affecting emergency medical services professionals in Jordan: a cross-sectional study",
+    "venue": "BMJ Open",
+    "year": 2024,
+    "doi": "10.1136/bmjopen-2023-078601",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919249",
+    "authors": "Williams B, et al.",
+    "title": "The paramedic experience of return to clinical practice: A reflexive thematic analysis",
+    "venue": "Paramedicine",
+    "year": 2024,
+    "doi": "10.1177/27536386241251429",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919247",
+    "authors": "Williams B, et al.",
+    "title": "Validation and cross-cultural adaptation of the six-dimension scale of nursing performance- arabic version",
+    "venue": "BMC Nursing",
+    "year": 2024,
+    "doi": "10.1186/s12912-024-01740-3",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919210",
+    "authors": "Williams B, et al.",
+    "title": "A novel study of situational awareness among out-of-hospital providers during an online clinical simulation",
+    "venue": "Australasian Emergency Care",
+    "year": 2023,
+    "doi": "10.1016/j.auec.2022.08.005",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919300",
+    "authors": "Williams B, et al.",
+    "title": "Emergency Department Preparedness toward a Future Pandemic: Safety Management Response Pyramid",
+    "venue": "Open Nursing Journal",
+    "year": 2023,
+    "doi": "10.2174/18744346-v16-e221214-2022-69",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919157",
+    "authors": "Williams B, et al.",
+    "title": "Paramedic Principles and Practice in the UK",
+    "venue": "Paramedic Principles and Practice in the Uk",
+    "year": 2023,
+    "doi": "10.1016/C2019-0-05095-9",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919281",
+    "authors": "Williams B, et al.",
+    "title": "Sleep and mental health in recruit paramedics: A 6-month longitudinal study",
+    "venue": "Sleep",
+    "year": 2023,
+    "doi": "10.1093/sleep/zsad050",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919198",
+    "authors": "Williams B, et al.",
+    "title": "The advantages and challenges experienced with the implementation and delivery of community paramedicine programmes: A qualitative reflexive thematic analysis",
+    "venue": "Paramedicine",
+    "year": 2023,
+    "doi": "10.1177/27536386231188595",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919203",
+    "authors": "Williams B, et al.",
+    "title": "Saudi Healthcare Students' Perceptions and Beliefs About Immunizations: a Descriptive, Cross-Sectional Study",
+    "venue": "Medical Archives",
+    "year": 2022,
+    "doi": "10.5455/medarh.2022.76.458-463",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919207",
+    "authors": "Williams B, et al.",
+    "title": "Attitudes towards cpr among allied health students in jordan: A cross-sectional study",
+    "venue": "Australasian Journal of Paramedicine",
+    "year": 2020,
+    "doi": "10.33151/ajp.17.860",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919161",
+    "authors": "Williams B, et al.",
+    "title": "Introduction to: Patient and Paramedic Safety",
+    "venue": "Paramedic Principles and Practice A Clinical Reasoning Approach",
+    "year": 2020,
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919168",
+    "authors": "Williams B, et al.",
+    "title": "Introduction to: The Paramedic Approach to Complex Cases: Specific Challenges to Paramedic Reasoning and Management",
+    "venue": "Paramedic Principles and Practice A Clinical Reasoning Approach",
+    "year": 2020,
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919165",
+    "authors": "Williams B, et al.",
+    "title": "Introduction to: The Paramedic Approach to Obstetric, Neonatal and Paediatric Patients",
+    "venue": "Paramedic Principles and Practice A Clinical Reasoning Approach",
+    "year": 2020,
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919166",
+    "authors": "Williams B, et al.",
+    "title": "Introduction to: The Paramedic Approach to the Patient Displaying Changes in Behaviour: Mental Health and Mental Illness",
+    "venue": "Paramedic Principles and Practice A Clinical Reasoning Approach",
+    "year": 2020,
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919169",
+    "authors": "Williams B, et al.",
+    "title": "Introduction to: The Paramedic Approach to the Patient With a Cardiac Condition",
+    "venue": "Paramedic Principles and Practice A Clinical Reasoning Approach",
+    "year": 2020,
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919162",
+    "authors": "Williams B, et al.",
+    "title": "Introduction to: The Paramedic Approach to the Patient With a Medical Condition",
+    "venue": "Paramedic Principles and Practice A Clinical Reasoning Approach",
+    "year": 2020,
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919164",
+    "authors": "Williams B, et al.",
+    "title": "Introduction to: The Paramedic Approach to the Patient With a Respiratory Condition",
+    "venue": "Paramedic Principles and Practice A Clinical Reasoning Approach",
+    "year": 2020,
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919159",
+    "authors": "Williams B, et al.",
+    "title": "Introduction to: The Paramedic Approach to the Patient With an Environmental Condition",
+    "venue": "Paramedic Principles and Practice A Clinical Reasoning Approach",
+    "year": 2020,
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919163",
+    "authors": "Williams B, et al.",
+    "title": "Introduction to: The Paramedic Approach to the Trauma Patient",
+    "venue": "Paramedic Principles and Practice A Clinical Reasoning Approach",
+    "year": 2020,
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919160",
+    "authors": "Williams B, et al.",
+    "title": "Introduction to: The Paramedic Clinical Approach",
+    "venue": "Paramedic Principles and Practice A Clinical Reasoning Approach",
+    "year": 2020,
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-229919167",
+    "authors": "Williams B, et al.",
+    "title": "Paramedic Principles and Practice: A Clinical Reasoning Approach",
+    "venue": "Paramedic Principles and Practice A Clinical Reasoning Approach",
+    "year": 2020,
+    "doi": "10.1016/C2017-0-04293-3",
+    "source": "orcid-sync",
+    "needs_review": true
+  },
+  {
+    "id": "orcid-15663938",
+    "authors": "Williams B, et al.",
+    "title": "Simtect 2008 health simulation conference “simulation – realising the potential” royal brisbane & women’s hospital education centre / queensland health skills development centre 8-11 september 2008",
+    "venue": "Australasian Journal of Paramedicine",
+    "year": 2008,
+    "source": "orcid-sync",
+    "needs_review": true
   }
 ]
